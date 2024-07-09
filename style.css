@@ -111,16 +111,15 @@ a:hover {
 }
 
  p#campo {
+  height: 40px;
   margin: 10px 0px 10px 0px;
   border-radius: 10px;
   border: 1px sold white;
-  background-color: #dd6edd;
+  background-color: #9230ca;
   color: white;
   font-weight: bold;
   box-shadow: 2px 2px 8px black;
-  border: 1px solid #000000;
-  padding: 0px;
-  height: 50px;
+  border: 1px solid #000000
  }
 
  span {
@@ -129,7 +128,25 @@ a:hover {
   height: 100%;
   background-color: #9230ca;
   border-radius: 10px 0px 0px 10px;
-
+  margin: auto;
+  
  }
+
+ input {
+  background-color: #dd6edd;
+  width: calc(100% +5px);
+  height: 93%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  transform:translatex(-2px);
+ }
+
+ input:focus-within {
+  background-color: white;
+ }
+
+ 
 
 
