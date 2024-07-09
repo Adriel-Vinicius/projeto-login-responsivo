@@ -124,7 +124,7 @@ a:hover {
 
  span {
   text-align: center;
-  width: 40px;
+  width: 30px;
   height: 100%;
   background-color: #9230ca;
   border-radius: 10px 0px 0px 10px;
@@ -133,9 +133,10 @@ a:hover {
  }
 
  input {
+  margin: auto;
   background-color: #dd6edd;
-  width: calc(100% +5px);
-  height: 93%;
+  width: 91%;
+  height: 90%;
   border-radius: 10px;
   border: none;
   cursor: pointer;
